@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
+using noticias.Models;
 namespace noticias.Data;
 
 public class ApplicationDbContext : IdentityDbContext
@@ -9,4 +9,6 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+
+    public DbSet<Feedback> DbSetFeedback { get; set; }
 }
