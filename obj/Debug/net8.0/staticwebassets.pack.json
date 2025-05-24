@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\noticias.zj227z4d13.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\Documents\\software\\noticias\\wwwroot\\css\\blog-styles.css",
+      "PackagePath": "staticwebassets\\css\\blog-styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\software\\noticias\\wwwroot\\css\\list-feedback-styles.css",
+      "PackagePath": "staticwebassets\\css\\list-feedback-styles.css"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\Documents\\software\\noticias\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
