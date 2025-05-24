@@ -1,0 +1,64 @@
+body {
+  background-color: #f8f9fa; /* Un fondo claro general */
+}
+
+.container h1.display-4 {
+  color: #343a40; /* Un color oscuro para el título principal */
+  font-weight: 300;
+}
+
+.container p.lead {
+  color: #6c757d; /* Un gris suave para el subtítulo */
+}
+
+.feedback-card {
+  border: 1px solid #dee2e6;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.feedback-card:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card .card-title.feedback-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #0056b3; /* Azul para los títulos de los posts */
+  margin-bottom: 0.75rem;
+}
+
+.feedback-card .card-text small.text-muted {
+  font-size: 0.8rem;
+}
+
+.feedback-card ul {
+  font-size: 0.9rem;
+}
+
+.feedback-card ul li {
+  padding: 0.2rem 0;
+  color: #495057;
+}
+
+.feedback-card ul li strong {
+  color: #343a40;
+}
+
+.feedback-card i.bi-hand-thumbs-up-fill {
+  color: #198754 !important; /* Verde de Bootstrap para 'like' */
+}
+
+.feedback-card i.bi-hand-thumbs-down-fill {
+  color: #dc3545 !important; /* Rojo de Bootstrap para 'dislike' */
+}
+
+.spinner-border {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.alert-info {
+  background-color: #cff4fc;
+  border-color: #b6effb;
+  color: #055160;
+}
